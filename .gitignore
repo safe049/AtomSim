@@ -1,0 +1,40 @@
+# 忽略编译输出目录
+main.build/
+main.dist/
+main.onefile-build/
+
+# 忽略可执行文件
+main.bin
+
+# 忽略状态文件（如果该文件是运行时生成的）
+atom_sim_state.json
+
+# 忽略虚拟环境（如果使用了Python虚拟环境）
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略日志文件和临时文件
+*.log
+*.tmp
+*.swp
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略配置文件（如果有自动生成或用户特定的配置文件）
+*.config
+*.ini
+*.env
+
+# 忽略其他可能的编译输出
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
